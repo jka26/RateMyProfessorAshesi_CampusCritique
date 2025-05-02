@@ -1,0 +1,15 @@
+# Enable rewriting
+RewriteEngine On
+
+# Set default index file
+DirectoryIndex index.php
+
+# Redirect everything through index.php if not a real file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Allow access to all
+<IfModule mod_authz_core.c>
+    Require all granted
+</IfModule>
