@@ -18,10 +18,10 @@ session_start();
     <link href="../RateMyProfessorAshesi/css/prettyPhoto.css" rel="stylesheet">
     <link href="../RateMyProfessorAshesi/css/shortcodes.css" rel="stylesheet">
     <link href="../RateMyProfessorAshesi/css/widget.css" rel="stylesheet">
-    <link href="../RateMyProfessorAshesi/css/typography.css" rel="stylesheet">
-    <link href="../RateMyProfessorAshesi/style.css" rel="stylesheet">
-    <link href="../RateMyProfessorAshesi/css/color.css" rel="stylesheet">
-    <link href="../RateMyProfessorAshesi/css/responsive.css" rel="stylesheet">
+    <link href="../css/typography.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+    <link href="../css/color.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
     <link href="../public/styles/loginsignup.css" rel="stylesheet">
 
 
