@@ -10,5 +10,7 @@ COPY . /var/www/html/
 # Give correct permissions (optional but recommended)
 RUN chown -R www-data:www-data /var/www/html && chmod -R 755 /var/www/html
 
+RUN chmod -R 755 /var/www/html
+
 # Expose port 80
 EXPOSE 80
