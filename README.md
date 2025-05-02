@@ -107,3 +107,5 @@ A system that allows students to rate their faculty for their various courses. A
    python analyze_sentiment.py
    python moderate_content.py
 
+## Launch the project in your browser via:
+http://localhost/RateMyProfessorAshesi/home.php
