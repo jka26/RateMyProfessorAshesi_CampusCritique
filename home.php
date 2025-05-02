@@ -22,7 +22,7 @@ session_start();
     <link href="../RateMyProfessorAshesi/style.css" rel="stylesheet">
     <link href="../RateMyProfessorAshesi/css/color.css" rel="stylesheet">
     <link href="../RateMyProfessorAshesi/css/responsive.css" rel="stylesheet">
-    <link href="../RateMyProfessorAshesi/public/styles/loginsignup.css" rel="stylesheet">
+    <link href="../public/styles/loginsignup.css" rel="stylesheet">
 
 
     <style>
