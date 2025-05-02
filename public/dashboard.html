@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logo_campusCritique.png" alt="Campus Critique Logo" class="logo">
+        </div>
+        <input type="text" placeholder="Professor name">
+        <input type="text" placeholder="Your school">
+        <div class="user-menu">
+            <span>Hey, Jemima</span>
+            <button class="help-btn">Help</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Hey, Jemima</h2>
+        <div class="tabs">
+            <button class="tab-link active" onclick="openTab(event, 'profile')">Profile</button>
+            <button class="tab-link" onclick="openTab(event, 'account')">Account Settings</button>
+            <button class="tab-link" onclick="openTab(event, 'ratings')">Ratings</button>
+            <button class="tab-link" onclick="openTab(event, 'saved')">Saved Professors</button>
+        </div>
+
+        <!-- Profile Tab -->
+        <div id="profile" class="tab-content active">
+            <h3>Edit Profile</h3>
+            <label>First Name: <input type="text" value="Jemima"></label>
+            <label>Last Name: <input type="text" value="Kukua Arhin"></label>
+            <label>School: <input type="text" value="Ashesi University"></label>
+            <label>Field of Study: <input type="text" value="Computer Science"></label>
+            <label>Graduation Date: <input type="date"></label>
+            <div class="button-container">
+                <button class="save-btn">Save Changes</button>
+                <button class="cancel-btn" onclick="resetForm()">Cancel</button>
+            </div>
+        </div>
+
+        <!-- Account Settings Tab -->
+        <div id="account" class="tab-content">
+            <h3>Account Settings</h3>
+            <label>Email: <input type="email" value="jemima@example.com"></label>
+            <label>Current Password: <input type="password"></label>
+            <label>New Password: <input type="password"></label>
+            <button class="save-btn">Update Account</button>
+        </div>
+
+        <!-- Ratings Tab -->
+        <div id="ratings" class="tab-content">
+            <h3>My Ratings</h3>
+            <p>You have not rated any professors yet.</p>
+        </div>
+
+        <!-- Saved Professors Tab -->
+        <div id="saved" class="tab-content">
+            <h3>Saved Professors</h3>
+            <p>You don’t have any saved professors yet.</p>
+        </div>
+    </div>
+
+    <section class="footer">
+        <p>&copy; 2023 Campus Critique. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </section>
+
+    <script>
+        function openTab(event, tabName) {
+            let i, tabcontent, tablinks;
+            
+            // Hide all tab contents
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Remove "active" class from all tabs
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab
+            document.getElementById(tabName).style.display = "block";
+            event.currentTarget.className += " active";
+        }
+
+        function resetForm() {
+            document.getElementById("firstName").value = "Jemima";
+            document.getElementById("lastName").value = "Kukua Arhin";
+            document.getElementById("school").value = "Ashesi University";
+            document.getElementById("field").value = "Computer Science";
+            document.getElementById("gradDate").value = "";
+        }
+
+        // Set default tab on load
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("profile").style.display = "block";
+        });
+    </script>
+</body>
+</html>

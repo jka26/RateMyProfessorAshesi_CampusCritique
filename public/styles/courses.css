@@ -1,0 +1,153 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f4f7;
+    color: #333;
+}
+
+.course-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #a80c0c;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+strong {
+    color: #333;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #a80c0c;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.back-btn:hover {
+    background-color: #af464b;
+    transition: background-color 0.3s ease;
+}
+
+.review-form-container {
+    border: 2px solid #a80c0c; /* red border */
+    border-radius: 10px;        /* rounded edges */
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.review-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.review-form-container textarea {
+    width: 95%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.review-form-container button {
+    float: left;
+    width: 20%;
+    padding: 10px 20px;
+    background-color: #a80c0c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.review-form-container button:hover {
+    background-color: #af464b;
+}
+
+
+.review-form {
+    width: 95%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.review-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.star-rating {
+    /* float: left; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: left;
+    text-align: left;
+    gap: 5px;
+    font-size: 2rem;
+    user-select: none;
+    margin-left: 0;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star-rating input[type="radio"]:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: gold;
+}
+
+/* .submit-btn {
+    background-color: #a80c0c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.submit-btn:hover {
+    background-color: #af464b;
+    transition: background-color 0.3s ease;
+} */
+

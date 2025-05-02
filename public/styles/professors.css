@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+header {
+    background-color: #990000;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #990000;
+    color: white;
+    padding: 0.8rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.search-filter {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.5rem;
+}
+
+.search-filter form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.search-filter input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #990000;
+    border-radius: 5px;
+}
+
+.search-filter button,
+.search-filter .clear-btn {
+    padding: 0.5rem 1rem;
+    background-color: #990000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.search-filter .clear-btn:hover,
+.search-filter button:hover {
+    background-color: #cc0000;
+}
+
+.professor-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.professor-card {
+    border: 1px solid #990000;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+}
+
+.professor-card h2 {
+    color: #990000;
+    margin-bottom: 0.5rem;
+}
+
+.details-button {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #990000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.details-button:hover {
+    background-color: #e67082;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #fceabb, #990000);
+    color: #333;
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    font-size: 32px;
+    color: #450028;
+}
+
+h2, h3 {
+    color: #690022;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Review Card */
+.review-card {
+    background: #fff8f0;
+    border-left: 6px solid #ffa500;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Back Button */
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 18px;
+    background-color: #450028;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #690022;
+}
+
+/* Form Styles */
+form {
+    margin-top: 30px;
+    background-color: #f9f2ec;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #24000B;
+}
+
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    background-color: #881F2B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #D6A7BA;
+    color: #450028;
+}
+
+/* Reviews List Section */
+.reviews-list {
+    margin-top: 40px;
+}
+
+.back-link a {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #450028;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.back-link a:hover {
+    background-color: #690022;
+}

@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFFCEF;
+    color: #24000B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Profile Container */
+.profile-container {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.profile-container h1 {
+    color: #690022;
+    margin-bottom: 30px;
+}
+
+/* Profile Card */
+.profile-card {
+    text-align: left;
+    background-color: #F9F4F9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #D6A7BA;
+}
+
+.profile-card p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #333;
+}
+
+.profile-card strong {
+    color: #450028;
+}
+
+/* Actions */
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-btn,
+.logout-btn {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.edit-btn {
+    background-color: #450028;
+    color: #fff;
+}
+
+.edit-btn:hover {
+    background-color: #690022;
+}
+
+.logout-btn {
+    background-color: #D6A7BA;
+    color: #24000B;
+}
+
+.logout-btn:hover {
+    background-color: #881F2B;
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .actions {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .edit-btn,
+    .logout-btn {
+        width: 100%;
+    }
+}

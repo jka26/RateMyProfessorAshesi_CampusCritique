@@ -1,0 +1,155 @@
+/*
+    ============================================================
+        Font Color
+    ============================================================
+*/
+.price strong,
+.testimonial h5 a,
+.iq_heading_1 span,
+.footer_strip h5 a,
+.course-info > span,
+.comment-reply:hover,
+.iq_time_wrap a:hover, 
+.blog-medium:hover h5 a,
+.iq_top_contact a:hover,
+.categries-list a:hover,
+.popular_thumb:hover h6 a,
+.course_comments li a:hover,
+.iqoniq2-info ul li:hover i,
+.iqoniq2-info ul li:hover a,
+.blog_detail_navi li a:hover,
+.center-dec:hover .text h5 a,
+.iq_footer_social li a:hover,
+.blog-list:hover .blog-title a,
+.iq_course_list_des:hover h5 a,
+.iq_teacher_style_1:hover h4 a,
+.iq_gallery_menu ul li:hover a,
+.iq_gallery_menu ul li a.active,
+.iq_professional_services:hover h5 a,
+.tags_wrap .iq_footer_social a:hover,
+.iq_footer_newsletter h6, .widget h5 span,
+.coureses_Popular_thumb:hover .popular_capstion > h5 a
+{
+    color: #B51C30;
+}
+
+/*
+    ============================================================
+        Background Color
+    ============================================================
+*/
+.iq_link_1,
+.fc-content,
+.blog1_link,
+.flickrbadges,
+.tag-link:hover,
+.overlay1:before,
+.iq_contact_info,
+.o_teacher_social a,
+.iq-tags li a:hover,
+.instractor_heading,
+.course-rating-head,
+.iqoniq-tabs a:hover,
+.dl-menuwrapper button,
+.fc-toolbar .fc-button,
+.iqoniq-tabs .active a,
+.dl-menuwrapper .dl-menu,
+.fc-unthemed td.fc-today,
+.widget_archive li:hover,
+.center-dec .text p:before,
+.navigation ul li a:before,
+.iq_tab_menu ul li:hover a,
+.slider-progress .progress,
+.iq_tab_menu ul li.active a,
+.event_pg_blog .fig_caption,
+.select ul.options li:hover,
+.course-progress .progress-bar,
+.iq_search.pull-right > button,
+.fc-toolbar button.fc-today-button,
+.our_teacher_page figure > a::before,
+.popular_thumb .overflow-text > span,
+.iq_upcomming_event:hover figure:before,
+.slick-dots li.slick-active button,
+.iqoniq-pagination .page-numbers:hover,
+.course-lesson-list li:hover,
+.iqoniq-pagination .page-numbers.current,
+.iq-progress .tooltip > .tooltip-inner, .iq-progress .progress-bar,
+.iq_footer_newsletter .iq-input-icon
+{
+    background-color: #B51C30;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #B51C30;
+}
+
+/*
+    ============================================================
+        Border Color
+    ============================================================
+*/
+.iq-input select:focus,
+.widget-title span,
+.iq-tags li a:hover,
+.testimonial figure,
+.iq-selectric:focus,
+.comment-reply:hover,
+.iq_course_list figure,
+.iq-input textarea:focus,
+.fc-unthemed td.fc-today,
+.blog_detail_page figure,
+.iq_tab_menu ul li:hover a,
+.iqoniq2-info ul li:hover i,
+.iq_tab_menu ul li.active a,
+.iq_footer_social li a:hover,
+.iq_gallery_menu ul li:hover a,
+.iq_gallery_menu ul li a.active,
+.iq-input input[type="text"]:focus,
+.iq-input input[type="email"]:focus,
+.tags_wrap .iq_footer_social a:hover,
+.feedback-wrap .slick-dots li button,
+.courses-slider .slick-dots li button,
+.related-slider .slick-dots li button,
+.iqoniq-pagination .page-numbers:hover,
+.iqoniq-pagination .page-numbers.current,
+.testimonial-slider .slick-dots li button,
+.iq-progress .popOver + .tooltip > .tooltip-arrow,
+.iq_search_courses
+{
+    border-color: #B51C30; 
+}
+
+/*
+    ============================================================
+        Content Selection
+    ============================================================
+*/
+::selection {
+    background: #B51C30;
+    color: #FFFFFF;
+}
+::-webkit-selection {
+    background: #B51C30;
+    color: #FFFFFF;
+}
+::-moz-selection {
+    background: #B51C30;
+    color: #FFFFFF;
+}
+
+/*
+    ============================================================
+        Additional Effects
+    ============================================================
+*/
+
+.text-footer a:hover {
+    color: #FFFFFF;
+    box-shadow: 20px 20px 0 0 #000 inset;
+}
+
+.link-wrapper > a:hover {
+    color: #FFFFFF;
+    box-shadow: 35px 35px 0px 0 #000 inset;
+}
+

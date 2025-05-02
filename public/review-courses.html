@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  	
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Reviews Courses</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- DL Menu CSS -->
+        <link href="js/dl-menu/component.css" rel="stylesheet">
+        <!-- Font Awesome StyleSheet CSS -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!-- Font Awesome StyleSheet CSS -->
+        <link href="css/svg.css" rel="stylesheet">
+        <!-- Pretty Photo CSS -->
+        <link href="css/prettyPhoto.css" rel="stylesheet">
+        <!-- Shortcodes CSS -->
+        <link href="css/shortcodes.css" rel="stylesheet">
+        <!-- Widget CSS -->
+        <link href="css/widget.css" rel="stylesheet">
+        <!-- Typography CSS -->
+        <link href="css/typography.css" rel="stylesheet">
+        <!-- Custom Main StyleSheet CSS -->
+        <link href="style.css" rel="stylesheet">
+        <!-- Color CSS -->
+        <link href="css/color.css" rel="stylesheet">
+        <!-- Responsive CSS -->
+        <link href="css/responsive.css" rel="stylesheet">
+		
+    </head>
+  	<body>
+		<div class="iq_wrapper">
+
+			<!--Header Start-->
+			<header class="iq_header_1">
+				<div class="container">
+					<div class="iq_logo" style="float: left; display: flex; align-items: center; padding: 10px 0;">
+						<a href="index-2.html">
+							<img src="images/campuscritique.jpg" alt="Campus Critique" style="height: 100px; width: auto;">
+						</a>
+					</div>
+		
+					<div class="iq_ui_element">
+						<div class="iq_top_strip" style="margin-top: 20px;">
+							<div class="iq_top_contact pull-left">
+								<a href="#">Call us: +233 567 858 976</a>
+								<a href="#">Email: info@campuscritique.com</a>
+							</div>
+							<div class="iq_time_wrap pull-right">
+								<i class="fa fa-clock-o"></i> Send your Feedback Anytime!
+							</div>
+						</div>
+		
+						<div class="navigation-wrapper pull-left">
+							<div class="navigation pull-left">
+								<ul>
+									<li><a href="index-2.html">Home</a></li>
+									<li><a href="about-us.html">About Us</a></li>
+									
+									<li class="active"><a href="#">Ratings & Reviews</a>
+										<ul class="children">
+											<li><a href="review-courses.html">Course Reviews</a></li>
+											<li><a href="review-professors.html">Professor Reviews</a></li>
+											<li><a href="review-facilities.html">Campus Facilities Reviews</a></li>
+											
+										</ul>
+									</li>
+								
+								</ul>
+							</div>
+		
+							<div class="iq_search pull-right">
+								<button data-toggle="modal" data-target="#search-box"><i class="fa fa-search"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!--Header End-->
+		
+			<!--Banner Start-->
+			<div class="iner_banner" style="background-color: #990000; color: white; padding: 40px 0;">
+				<div class="container">
+					<h2 style="color: white;">Course Reviews</h2>
+					<div class="banner_iner_capstion">
+						<ul style="color: white;">
+							<li><a href="index-2.html" style="color: white;">Home</a></li>
+							<li><a href="review-courses.html" style="color: white;">Course Reviews</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--Banner End-->
+	  
+		  <main class="container my-5">
+			<!-- Toggle Buttons -->
+			<div class="btn-toggle-group text-center mb-4">
+			  <button class="btn btn-outline-secondary" data-toggle="collapse" data-target="#reviewsBA">Business Administration</button>
+			  <button class="btn btn-outline-secondary" data-toggle="collapse" data-target="#reviewsCS">Computer Science</button>
+			  <button class="btn btn-outline-secondary" data-toggle="collapse" data-target="#reviewsMIS">MIS</button>
+			  <button class="btn btn-outline-secondary" data-toggle="collapse" data-target="#reviewsENG">Engineering</button>
+			</div>
+	  
+			<!-- Review Form -->
+			<div class="bg-light p-4 rounded">
+			  <h4 class="mb-3">Submit Your Review</h4>
+			  <form>
+				<div class="form-row">
+				  <div class="form-group col-md-6">
+					<label for="courseSelectForm">Course Name</label>
+					<select id="courseSelectForm" class="form-control">
+					  <option value="" disabled selected>Select a course</option>
+					  <optgroup label="Business Administration">
+						<option>Principles of Management</option>
+						<option>Financial Accounting</option>
+						<option>Marketing Management</option>
+						<option>Organizational Behavior</option>
+						<option>Business Law</option>
+						<option>Human Resource Management</option>
+						<option>Operations Management</option>
+						<option>Managerial Economics</option>
+						<option>Entrepreneurship</option>
+						<option>Business Ethics & Governance</option>
+					  </optgroup>
+					  <optgroup label="Computer Science">
+						<option>Introduction to Computing</option>
+						<option>Data Structures</option>
+						<option>Algorithms</option>
+						<option>Object-Oriented Programming</option>
+						<option>Database Systems</option>
+						<option>Computer Networks</option>
+						<option>Operating Systems</option>
+						<option>Software Engineering</option>
+						<option>Artificial Intelligence</option>
+						<option>Web Development</option>
+					  </optgroup>
+					  <optgroup label="MIS">
+						<option>Introduction to MIS</option>
+						<option>Systems Analysis & Design</option>
+						<option>Database Management</option>
+						<option>Business Intelligence</option>
+						<option>Project Management</option>
+						<option>e-Commerce</option>
+						<option>Information Security</option>
+						<option>Data Analytics</option>
+						<option>ERP Systems</option>
+						<option>IT Governance</option>
+					  </optgroup>
+					  <optgroup label="Engineering">
+						<option>Engineering Mathematics</option>
+						<option>Physics for Engineers</option>
+						<option>Mechanics</option>
+						<option>Thermodynamics</option>
+						<option>Materials Science</option>
+						<option>Circuit Analysis</option>
+						<option>Electronics</option>
+						<option>Control Systems</option>
+						<option>Fluid Mechanics</option>
+						<option>Engineering Design</option>
+					  </optgroup>
+					</select>
+				  </div>
+				  <div class="form-group col-md-6">
+					<label for="ratingSelectForm">Rate the Course</label>
+					<select id="ratingSelectForm" class="form-control">
+					  <option value="" disabled selected>Select rating</option>
+					  <option>★★★★★ Excellent</option>
+					  <option>★★★★☆ Very Good</option>
+					  <option>★★★☆☆ Good</option>
+					  <option>★★☆☆☆ Fair</option>
+					  <option>★☆☆☆☆ Poor</option>
+					</select>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="reviewTextForm">Your Review</label>
+				  <textarea id="reviewTextForm" class="form-control" rows="3" placeholder="Share your thoughts…"></textarea>
+				</div>
+				<div class="text-center">
+				  <button type="submit" class="btn btn-primary px-4">Submit Review</button>
+				</div>
+			  </form>
+			</div>
+		  </main>
+   
+ 
+		
+
+<!--Footer Start-->
+<footer class="iq_footer_bg" style="background-color: #990000; color: white; padding: 40px 0;">
+    <div class="container">
+        <div class="row">
+            <!-- About Campus Critique -->
+            <div class="col-md-3 col-sm-6">
+                <h5 style="color: white;">About Campus Critique</h5>
+                <p style="color: white;">Helping students make smarter academic and campus life decisions with real reviews and ratings.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-3 col-sm-6">
+                <h5 style="color: white;">Quick Links</h5>
+                <ul class="iq_footer_links" style="list-style: none; padding: 0;">
+					<li><a href="index-2.html" style="color: white; text-decoration: none;">Home</a></li>
+                    <li><a href="review-courses.html" style="color: white; text-decoration: none;">See Reviews</a></li>
+                    <li><a href="about-us.html" style="color: white; text-decoration: none;">About Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-md-3 col-sm-6">
+                <h5 style="color: white;">Contact Us</h5>
+                <p style="color: white;">Email: <a href="mailto:info@campuscritique.com" style="color: white; text-decoration: underline;">info@campuscritique.com</a></p>
+                <p style="color: white;">Phone: +233 567 858 976</p>
+            </div>
+
+            <!-- Newsletter and Social Media -->
+            <div class="col-md-3 col-sm-6">
+                <h5 style="color: white;">Our Newsletter</h5>
+                <p style="color: white;">Stay updated! Subscribe to our newsletter for student insights and updates.</p>
+                <form class="iq-input" style="display: flex; margin-top: 10px;">
+                    <input type="text" style="color: white;" placeholder="Enter your email" style="flex: 1; padding: 8px; border: none; border-radius: 4px 0 0 4px;">
+                    <button type="submit" style="background: white; color: #990000; border: none; padding: 8px 12px; border-radius: 0 4px 4px 0;">
+                        <i class="fa fa-paper-plane"></i>
+                    </button>
+                </form>
+                <h5 class="mt-4" style="color: white; margin-top: 20px;">Our Connected</h5>
+                <ul class="iq_footer_social" style="list-style: none; display: flex; gap: 10px; padding: 0; margin-top: 10px;">
+                    <li><a href="#" style="color: white;"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" style="color: white;"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" style="color: white;"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#" style="color: white;"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Footer End-->
+
+
+<!--iqoniq Wrapper End-->
+		<!--Javascript Library-->
+        <script src="js/jquery.js"></script>
+        <!--Bootstrap core JavaScript-->
+        <script src="js/bootstrap.min.js"></script>
+        <!--Dl Menu Script-->
+        <script src="js/dl-menu/modernizr.custom.js"></script>
+        <script src="js/dl-menu/jquery.dlmenu.js"></script>
+        <!--Pretty Photo JavaScript-->
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <!--Custom JavaScript-->
+        <script src="js/custom.js"></script>
+</body>
+
+</html>

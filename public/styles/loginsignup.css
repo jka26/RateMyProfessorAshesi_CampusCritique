@@ -1,0 +1,135 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36, 0, 11, 0.7); /* Semi-transparent dark background */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal.active {
+    display: flex;
+}
+
+.modal-content {
+    background-color: #FFFCEF;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.modal-content h2 {
+    color: #450028;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.modal-content p {
+    font-size: 14px;
+    color: #450028;
+    text-align: center;
+}
+
+.modal-content a {
+    color: #690022;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.modal-content a:hover {
+    text-decoration: underline;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #450028;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close:hover {
+    color: #881F2B;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #24000B;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #690022;
+}
+
+.continue-btn {
+    background-color: #690022;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.continue-btn:hover {
+    background-color: #881F2B;
+}
+
+@media screen and (max-width: 480px) {
+    .modal-content {
+        padding: 30px 20px;
+    }
+
+    .modal-content h2 {
+        font-size: 20px;
+    }
+
+    .continue-btn {
+        font-size: 15px;
+    }
+}
+
+.error-message {
+    color: #D9534F;
+    background: #FCEBEA;
+    border: 1px solid #D9534F;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+

@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f7;
+    color: #333;
+}
+
+header {
+    background-color: #990000;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    color:#fff;
+}
+
+h1 {
+    text-align: center;
+    color: #a80c0c;
+    margin-bottom: 30px;
+}
+
+ul {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    background-color: #fff;
+    border-left: 6px solid #af464b;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+a.course-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+a.course-link:hover {
+    color: #af464b;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 120px;
+    background-color: #a80c0c;
+    color: #FFFCEF;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .social-media img {
+    width: 25px;
+    margin: 0 10px;
+    filter: brightness(0) invert(1);
+}

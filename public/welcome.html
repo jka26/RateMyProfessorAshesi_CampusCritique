@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Critique</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <header class="header">
+        <h2 class="site-title">Campus Critique</h2>
+        <div class="nav-buttons">
+            <div class="dropdown">
+                <button class="dropdown-btn" onclick="toggleDropdown()">Hey, Jemima</button>
+                <div class="dropdown-content">
+                    <a href="#">Profile</a>
+                    <a href="#">Account Settings</a>
+                    <a href="#">Your Ratings</a>
+                    <a href="#">Saved Professors</a>
+                    <a href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>    
+    
+    
+    <section class="hero">
+        <div class="hero-content">
+            <img src="../RateMyProfessorAshesi/assets/logo_campusCritique.png" alt="Campus Critique Logo" class="logo">
+            <h1>Enter your <span class="bold">school</span> to get started</h1>
+            <input type="text" placeholder="Your school">
+            <p>I'd like to look up a professor by name</p>
+        </div>
+    </section>
+
+    <section class="welcome">
+        <h1>Welcome Back!</h1>
+    </section>
+    
+    <section class="features-annex">
+        <div class="feature">
+            <img src="pencil-icon.png" alt="Manage Ratings">
+            <h2>Manage and edit your ratings</h2>
+        </div>
+        <div class="feature">
+            <img src="anonymous-icon.png" alt="Anonymous Ratings">
+            <h2>Your ratings are always anonymous</h2>
+        </div>
+        <div class="feature">
+            <img src="thumbs-icon.png" alt="Like or Dislike">
+            <h2>Like or dislike ratings</h2>
+        </div>
+    </section>
+
+    <section class="other-button">
+        <a href="dashboard.html">
+            <button>My Ratings</button>
+        </a>        
+    </section>
+    
+    <section class="footer">
+        <p>&copy; 2023 Campus Critique. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </section>
+
+    <script>
+        function toggleDropdown() {
+            let menu = document.getElementById("dropdownMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+
+        // Close the dropdown if clicked outside
+        document.addEventListener("click", function (event) {
+            let dropdown = document.getElementById("dropdownMenu");
+            let button = document.querySelector(".dropdown-btn");
+            if (!dropdown.contains(event.target) && !button.contains(event.target)) {
+                dropdown.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Navigation */
+header {
+    background-color: #450028;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #FFFCEF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #D6A7BA;
+}
+
+/* Container Styling */
+.edit-profile-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.edit-profile-container h2 {
+    margin-bottom: 20px;
+    color: #450028;
+    text-align: center;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #881F2B;
+    outline: none;
+}
+
+/* Button Styling */
+button[type="submit"] {
+    background-color: #690022;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #881F2B;
+}

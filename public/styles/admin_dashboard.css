@@ -1,0 +1,368 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFFCEF;
+    color: #24000B;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.admin-header {
+    background-color: #450028;
+    color: #FFFCEF;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.admin-nav a {
+    color: #FFFCEF;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.admin-nav a:hover {
+    color: #D6A7BA;
+}
+
+/* Main Content */
+.admin-main {
+    padding: 2rem;
+    background-color: #FFFCEF;
+    min-height: 100vh;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.stat-card {
+    background-color: #D6A7BA;
+    border-left: 6px solid #690022;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.stat-card h4 {
+    font-size: 1.2rem;
+    color: #24000B;
+    font-weight: 600;
+}
+
+.stat-card p {
+    font-size: 2rem;
+    color: #450028;
+    font-weight: bold;
+}
+
+/* Top Items Section */
+.top-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+
+.top-card {
+    background-color: #D6A7BA;
+    border-left: 6px solid #690022;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.top-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.top-card h4 {
+    font-size: 1.2rem;
+    color: #24000B;
+    font-weight: 600;
+}
+
+.top-card p {
+    font-size: 1.6rem;
+    color: #450028;
+    font-weight: 500;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #881F2B;
+    color: #FFFCEF;
+    padding: 0.8rem 1.6rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #690022;
+    text-decoration: none;
+}
+
+/* Forms and Inputs */
+input, textarea, select {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    border: 1px solid #D6A7BA;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #24000B;
+    background-color: #FFFCEF;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #690022;
+    outline: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .admin-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stats-grid, .top-items {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* General Styles for Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #D6A7BA;
+}
+
+th {
+    background-color: #690022;
+    color: #FFFCEF;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #FFFCEF;
+    color: #24000B;
+}
+
+tr:hover {
+    background-color: #F9F0F4;
+}
+
+/* Action Buttons for Tables */
+button.action-btn {
+    background-color: #881F2B;
+    color: #FFFCEF;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+    margin-right: 0.5rem;
+}
+
+button.action-btn:hover {
+    background-color: #690022;
+}
+
+/* Manage Users Section */
+.manage-users {
+    margin-top: 2rem;
+}
+
+.manage-users h3 {
+    font-size: 1.5rem;
+    color: #24000B;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.manage-users table {
+    margin-bottom: 3rem;
+}
+
+.manage-users td .action-btn {
+    margin-top: 0.5rem;
+}
+
+/* Recent Reviews Section */
+.recent-reviews {
+    margin-top: 3rem;
+}
+
+.recent-reviews h3 {
+    font-size: 1.5rem;
+    color: #24000B;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.recent-reviews table {
+    margin-bottom: 3rem;
+}
+
+.recent-reviews td .action-btn {
+    margin-top: 0.5rem;
+}
+
+/* Manage Professors & Courses Section */
+.manage-professors-courses {
+    margin-top: 3rem;
+}
+
+.manage-professors-courses h3 {
+    font-size: 1.5rem;
+    color: #24000B;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.manage-professors-courses .action-btn {
+    margin-top: 1rem;
+}
+
+/* Add Buttons */
+.add-btn {
+    display: inline-block;
+    background-color: #881F2B;
+    color: #FFFCEF;
+    padding: 0.8rem 1.6rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+
+.add-btn:hover {
+    background-color: #690022;
+}
+
+/* Overall Styling for the Page */
+.admin-main {
+    padding: 2rem;
+    background-color: #FFFCEF;
+    min-height: 100vh;
+}
+
+/* Card Grid Adjustments for New Sections */
+.admin-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.card {
+    background-color: #D6A7BA;
+    border-left: 6px solid #690022;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #24000B;
+}
+
+.card p {
+    color: #450028;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .admin-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stats-grid, .top-items {
+        grid-template-columns: 1fr;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    th, td {
+        padding: 0.8rem;
+    }
+}
+
+.analytics {
+    margin-top: 3rem;
+}
+
+.charts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.chart-container {
+    background-color: #FFFCEF;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
