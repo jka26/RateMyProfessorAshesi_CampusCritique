@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: campus-critique
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: DB_HOST
+        value: your-db-host
+      - key: DB_USER
+        value: your-db-username
+      - key: DB_PASS
+        value: your-db-password
+      - key: DB_NAME
+        value: your-db-name
