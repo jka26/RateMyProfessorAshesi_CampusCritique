@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$db = 'ratemyplatform';
-$user = 'root';
-$pass = ''; // default password in XAMPP is blank
+$host = 'sql8.freesqldatabase.com';     
+$db   = 'sql8776863';   
+$user = 'sql8776863'; 
+$pass = 'LeVtBB6sB2';        
 
 $conn = new mysqli($host, $user, $pass, $db);
 
