@@ -10,14 +10,14 @@ session_start();
     <title>Campus Critique</title>
 
     <!-- CSS Links -->
-    <link href="../RateMyProfessorAshesi/css/bootstrap.css" rel="stylesheet">
-    <link href="../RateMyProfessorAshesi/js/dl-menu/component.css" rel="stylesheet">
+    <link href="../ss/bootstrap.css" rel="stylesheet">
+    <link href="../js/dl-menu/component.css" rel="stylesheet">
     <link rel="stylesheet" href="css/slick.css">
-    <link href="../RateMyProfessorAshesi/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../RateMyProfessorAshesi/css/svg.css" rel="stylesheet">
-    <link href="../RateMyProfessorAshesi/css/prettyPhoto.css" rel="stylesheet">
-    <link href="../RateMyProfessorAshesi/css/shortcodes.css" rel="stylesheet">
-    <link href="../RateMyProfessorAshesi/css/widget.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/svg.css" rel="stylesheet">
+    <link href="../css/prettyPhoto.css" rel="stylesheet">
+    <link href="../css/shortcodes.css" rel="stylesheet">
+    <link href="../css/widget.css" rel="stylesheet">
     <link href="../css/typography.css" rel="stylesheet">
     <link href="../style.css" rel="stylesheet">
     <link href="../css/color.css" rel="stylesheet">
