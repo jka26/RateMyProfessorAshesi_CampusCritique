@@ -1,9 +1,6 @@
 # Campus Critique
 A system that allows students to rate their faculty for their various courses. A dedicated web-based Course Review & Rating System will bridge this gap by allowing students to share feedback, rate courses, and make informed decisions based on peer experiences.
 
-# Campus Critique
-A system that allows students to rate their faculty for their various courses. A dedicated web-based Course Review & Rating System will bridge this gap by allowing students to share feedback, rate courses, and make informed decisions based on peer experiences.
-
 # 📚 Campus Critique, Rate Your Ashesi Professors
 
 **Campus Critique** is a dynamic and interactive review platform designed for the Ashesi University community. It allows students to review professors and courses, and provides analytics and moderation features for administrators and professors.
@@ -109,3 +106,5 @@ A system that allows students to rate their faculty for their various courses. A
 
 ## Launch the project in your browser via:
 http://localhost/RateMyProfessorAshesi/home.php
+
+Linked to the deployed web app: https://campuscritique.onrender.com 
